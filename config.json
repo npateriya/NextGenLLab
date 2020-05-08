@@ -1,205 +1,42 @@
 {
-  "config": {
-    "devEnv": {
-      "default_content": "src/Getting-started-with-Cisco-SD-WAN-REST-APIs/sdwan.py",
-      "id": "0"
-    },
-    "include_header": false,
-    "quiz": {},
-    "sandbox": {},
-    "video": {
-      "link": "https://.as.sa.s.s",
-      "type": "youtube"
-    }
-  },
-  "labId": "n_labId_0",
-  "meta": {
-    "access": "public",
-    "authors": [
-      {
-        "email": "yawchen@cisco.com",
-        "name": "yawchen",
-        "profile_id": "92048a7e-cd2f-11e9-a32f-2a2ae2dbcce4"
-      }
-    ],
-    "branch": "master",
-    "byod": true,
-    "code_name": "nextgen-ll-sample",
-    "commit_id": "119b310797638238b0277b041a6a3100e98c52bb",
-    "complexity": "beginner",
-    "description": "",
-    "git_root_path": "/labs/n-labs-tests",
-    "labId": "n_labId_0",
-    "language": "en",
-    "location": "https://pubhub.cisco.com/media/nextgen-ll-sample/0ed85e0d8a3e1e664e9fd5d36d7225fd1898793e/",
-    "name": "NextGen LL sample",
-    "poweredBy": "<a href='https://developer.cisco.com/site/devnet/sandbox/' target=_blank>DevNet Sandbox</a>",
-    "slug": "The purpose of this learning lab is to understand the basics of the APIC-EM Northbound REST API. APIC-EM allows you to develop your own custom controller or add dynamic SDN functionality directly into your own applications. ",
-    "tags": [
-      {
-        "title": "SDN"
-      },
-      {
-        "title": "DNA"
-      },
-      {
-        "title": "Cisco DNA"
-      },
-      {
-        "title": "Networking"
-      },
-      {
-        "title": "APIC-EM"
-      },
-      {
-        "title": "Sandbox"
-      },
-      {
-        "title": "Coding"
-      },
-      {
-        "title": "Python"
-      },
-      {
-        "title": "REST"
-      },
-      {
-        "title": "JSON"
-      }
-    ],
-    "technology": "Other",
-    "time": 20,
-    "total_steps": 3,
-    "update_id": 61431,
-    "url": "/docs/state-transxx/",
-    "version_group": "1.0",
-    "version_name": "1.0"
-  },
-  "steps": [
+  "items": [
     {
-      "content": "1.html",
-      "nav": [
+      "title": "Overview",
+      "items": [
         {
-          "tag": "h1",
-          "title": "APIC-EM APIs with Python: Part 1 - The basics",
-          "url": "apic-em-apis-with-python-part-1-the-basics"
-        },
-        {
-          "tag": "h2",
-          "title": "Objectives",
-          "url": "objectives"
-        },
-        {
-          "tag": "h2",
-          "title": "Prerequisites",
-          "url": "prerequisites"
-        },
-        {
-          "tag": "h2",
-          "title": "Set up your computer",
-          "url": "set-up-your-computer"
-        },
-        {
-          "tag": "h2",
-          "title": "Step 1: Learn the basics of the APIC-EM REST API",
-          "url": "step-1-learn-the-basics-of-the-apic-em-rest-api"
-        },
-        {
-          "tag": "h2",
-          "title": "Next steps",
-          "url": "next-steps"
+          "title": "Introduction",
+          "content": "intro.md"
         }
-      ],
-      "step": 1,
-      "title": "Step 1",
-      "type": "markdown",
-      "url": "step-1",
-      "uuid": "5a8db63ca4412096d41f0dea26c236f79eff081a"
+      ]
     },
     {
-      "content": "2.html",
-      "nav": [
+      "title": "Guides",
+      "items": [
         {
-          "tag": "h1",
-          "title": "Step 2: Generate and use a new service ticket",
-          "url": "step-2-generate-and-use-a-new-service-ticket"
-        },
-        {
-          "tag": "h2",
-          "title": "Objectives",
-          "url": "objectives"
-        },
-        {
-          "tag": "h2",
-          "title": "What is RBAC and why do you need a service ticket?",
-          "url": "what-is-rbac-and-why-do-you-need-a-service-ticket"
-        },
-        {
-          "tag": "h2",
-          "title": "Generate a service ticket",
-          "url": "generate-a-service-ticket"
-        },
-        {
-          "tag": "h2",
-          "title": "Put the service ticket and other reusable items in a file",
-          "url": "put-the-service-ticket-and-other-reusable-items-in-a-file"
-        },
-        {
-          "tag": "h2",
-          "title": "Session Summary",
-          "url": "session-summary"
-        },
-        {
-          "tag": "h2",
-          "title": "Next step",
-          "url": "next-step"
+          "title": "Getting Started",
+          "content": "getting-started.md"
         }
-      ],
-      "step": 2,
-      "title": "Step 2",
-      "type": "markdown",
-      "url": "step-2",
-      "uuid": "19e8986ae535698ffd23d8fa5201702c41933e5b"
+      ]
     },
     {
-      "content": "3.html",
-      "nav": [
+      "title": "Resources",
+      "items": [
         {
-          "tag": "h1",
-          "title": "Step 3: Use network device-related APIs",
-          "url": "step-3-use-network-device-related-apis"
+          "title": "Blog",
+          "content": "https://blogs.cisco.com/developer",
+          "type": "url"
         },
         {
-          "tag": "h2",
-          "title": "Objectives",
-          "url": "objectives"
+          "title": "Sandbox",
+          "content": "https://developer.cisco.com/site/sandbox/",
+          "type": "url"
         },
         {
-          "tag": "h2",
-          "title": "Assignment of unique network IDs to network devices and device discovery",
-          "url": "assignment-of-unique-network-ids-to-network-devices-and-device-discovery"
-        },
-        {
-          "tag": "h2",
-          "title": "Application that displays IOS configuration",
-          "url": "application-that-displays-ios-configuration"
-        },
-        {
-          "tag": "h2",
-          "title": "Task 3: Adding more functionality to the application",
-          "url": "task-3-adding-more-functionality-to-the-application"
-        },
-        {
-          "tag": "h2",
-          "title": "Session summary",
-          "url": "session-summary"
+          "title": "Support",
+          "content": "https://developer.cisco.com/site/devnet/support/",
+          "type": "url"
         }
-      ],
-      "step": 3,
-      "title": "Step 3",
-      "type": "markdown",
-      "url": "step-3",
-      "uuid": "1667a4c47e0d89c9adeaa381af210e256e28d47a"
+      ]
     }
   ]
 }
